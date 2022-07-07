@@ -134,6 +134,7 @@ section img#mountains_front{
   padding:100px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   overflow: hidden;
 }
