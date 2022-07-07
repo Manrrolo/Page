@@ -5,10 +5,12 @@
     <link rel="stylesheet"type="text/css"href="../css/style_matrix.css">
   </head>
   <body>
-    <canvas width="100%" height="100%" id="canv" />
-    <div class="contenedor">
-      <a href='../index.html' id="btn2"> Siguiente Página </a>
-    </div>
+    <canvas width="100%" height="100%" id="canv" >
+      <div class="contenedor">
+        <a href='../index.html' id="btn2"> Siguiente Página </a>
+      </div>
+    </canvas>
+
     <script>
       // Get the canvas node and the drawing context
       const canvas = document.getElementById('canv');
@@ -48,6 +50,8 @@
       if (y > 100 + Math.random() * 10000) ypos[ind] = 0;
       // otherwise just move the y coordinate for the column 20px down,
       else ypos[ind] = y + 20;
+
+      ctx.fillText("Texto en el Canvas",50,50);
       });
       }
 
