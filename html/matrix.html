@@ -1,26 +1,31 @@
 <!doctype html>
 <html>
   <head>
-    <title>Matrix</title>
     <link rel="stylesheet"type="text/css"href="../css/style_matrix.css">
   </head>
-  <body>
-    <header>
-      <a href="#" class="logo"> Logo </a>
-      <ul>
-        <li><a href="#" class="active">Home </a></li>
-        <li><a href="#"> About </a></li>
-        <li><a href="#"> Work </a></li>
-        <li><a href="#"> Contact </a></li>
-      </ul>
-    </header>
+  <body class="hidden">
+    <div class="centrado" id="onload"> 
+      <div class="atom-spinner">
+        <div class="spinner-inner">
+          <div class="spinner-line"></div>
+          <div class="spinner-line"></div>
+          <div class="spinner-line"></div>
+          <!--Chrome renders little circles malformed :(-->
+          <div class="spinner-circle">
+            &#9679;
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="contenedor">
-      <a href='../index.html' id="btn2"> Siguiente Página </a>
+      <a href='moon.html' id="btn2"> Siguiente Página </a>
       <canvas width="100%" height="100%" id="canv" ></canvas>
     </div>
     
 
     </canvas>
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.20/dist/sweetalert2.all.min.js"></script>  
     <script type="text/javascript" src="../js/codigo2.js"></script>
   </body>
   

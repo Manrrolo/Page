@@ -1,10 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Parallax Scrolling Website|Vanilla Javascript</title>
-    <link rel="stylesheet"type="text/css"href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/style_moon.css" />
   </head>
-  <body>
+  <body class="hidden">
+    <div class="centrado" id="onload">
+      <div class="atom-spinner">
+        <div class="spinner-inner">
+          <div class="spinner-line"></div>
+          <div class="spinner-line"></div>
+          <div class="spinner-line"></div>
+          <div class="spinner-circle">&#9679;</div>
+        </div>
+      </div>
+    </div>
     <header>
       <a href="#" class="logo"> Logo </a>
       <ul>
@@ -15,39 +24,56 @@
       </ul>
     </header>
     <section>
-      <img src="../source/img/stars.png"id="stars">
-      <img src="../source/img/moon.png"id="moon">
-      <img src="../source/img/mountains_behind.png"id="mountains_behind">
+      <img src="../source/img/stars.png" id="stars" />
+      <img src="../source/img/moon.png" id="moon" />
+      <img src="../source/img/mountains_behind.png" id="mountains_behind" />
       <h2 id="text">Moon</h2>
       <a href="#sec" id="btn"> Explore </a>
-      <img src="../source/img/mountains_front.png"id="mountains_front">
+      <img src="../source/img/mountains_front.png" id="mountains_front" />
     </section>
-    <div class="sec" id='sec'>
+    <div class="sec" id="sec">
       <h2>Parallax Scrolling Effects</h2>
-      <p>Lorem ipsum,dolor sit amet consectetur adipisicing elit.Vero iste laboriosam iusto sapiente voluptatum
-      a,incidunt culpa quae.Necessitatibus vero exercitationem accusantium nemo culpa ipsa tempora quia?
-      Aliquam,nemo doloribus.Lorem ipsum,dolor sit amet consectetur adipisicing elit.Id quidem dolore atque
-      maiores laudantium,corporis quam quisquam vero repellat ad nobis asperiores incidunt veritatis neque eum
-      delectus consequuntur quibusdam eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit.Impedit
-      cumque molestiae fugit ratione aliquam suscipit,perspiciatis in quod molestias quisquam doloribus at
-      tempore.Minima aperiam molestias in nobis eaque ipsam.<br> <br> Lorem ipsum,dolor sit amet consectetur
-      adipisicing elit.Vero iste laboriosam iusto sapiente voluptatuma,incidunt culpa quae.Necessitatibus
-      vero exercitationem accusantium nemo culpa ipsa tempora quia?Aliquam,nemo doloribus.Lorem ipsum,dolor
-      sit amet consectetur adipisicing elit.Id quidem dolore atque maiores laudantium,corporis quam quisquam
-      vero repellat ad nobis asperiores incidunt veritatis neque eum delectus consequuntur quibusdam eaque.
-      <br> <br>Lorem ipsum,dolor sit amet consectetur adipisicing elit.Vero iste laboriosam iusto sapiente voluptatum
-      a,incidunt culpa quae.Necessitatibus vero exercitationem accusantium nemo culpa ipsa tempora quia?
-      Aliquam,nemo doloribus.Lorem ipsum,dolor sit amet consectetur adipisicing elit.Id quidem dolore atque
-      maiores laudantium,corporis quam quisquam vero repellat ad nobis asperiores incidunt veritatis neque eum
-      delectus consequuntur quibusdam eaque.Lorem ipsum dolor sit amet consectetur adipisicing elit.Impedit
-      cumque molestiae fugit ratione aliquam suscipit,perspiciatis in quod molestias quisquam doloribus at
-      tempore.Minima aperiam molestias in nobis eaque ipsam.</p>
+      <p>
+        Lorem ipsum,dolor sit amet consectetur adipisicing elit.Vero iste
+        laboriosam iusto sapiente voluptatum a,incidunt culpa
+        quae.Necessitatibus vero exercitationem accusantium nemo culpa ipsa
+        tempora quia? Aliquam,nemo doloribus.Lorem ipsum,dolor sit amet
+        consectetur adipisicing elit.Id quidem dolore atque maiores
+        laudantium,corporis quam quisquam vero repellat ad nobis asperiores
+        incidunt veritatis neque eum delectus consequuntur quibusdam eaque.Lorem
+        ipsum dolor sit amet consectetur adipisicing elit.Impedit cumque
+        molestiae fugit ratione aliquam suscipit,perspiciatis in quod molestias
+        quisquam doloribus at tempore.Minima aperiam molestias in nobis eaque
+        ipsam.<br />
+        <br />
+        Lorem ipsum,dolor sit amet consectetur adipisicing elit.Vero iste
+        laboriosam iusto sapiente voluptatuma,incidunt culpa quae.Necessitatibus
+        vero exercitationem accusantium nemo culpa ipsa tempora
+        quia?Aliquam,nemo doloribus.Lorem ipsum,dolor sit amet consectetur
+        adipisicing elit.Id quidem dolore atque maiores laudantium,corporis quam
+        quisquam vero repellat ad nobis asperiores incidunt veritatis neque eum
+        delectus consequuntur quibusdam eaque. <br />
+        <br />Lorem ipsum,dolor sit amet consectetur adipisicing elit.Vero iste
+        laboriosam iusto sapiente voluptatum a,incidunt culpa
+        quae.Necessitatibus vero exercitationem accusantium nemo culpa ipsa
+        tempora quia? Aliquam,nemo doloribus.Lorem ipsum,dolor sit amet
+        consectetur adipisicing elit.Id quidem dolore atque maiores
+        laudantium,corporis quam quisquam vero repellat ad nobis asperiores
+        incidunt veritatis neque eum delectus consequuntur quibusdam eaque.Lorem
+        ipsum dolor sit amet consectetur adipisicing elit.Impedit cumque
+        molestiae fugit ratione aliquam suscipit,perspiciatis in quod molestias
+        quisquam doloribus at tempore.Minima aperiam molestias in nobis eaque
+        ipsam.
+      </p>
       <div class="contenedor">
-        <a href='https://www.freepik.com/vectors/night-scene' id="btn2"> Night scene vector created by upklyak </a>
-        <a href='matrix.html' id="btn2"> Siguiente Página </a>
+        <a href="https://www.freepik.com/vectors/night-scene" id="btn2">
+          Night scene vector created by upklyak
+        </a>
+        <a href="matrix.html" id="btn2"> Siguiente Página </a>
       </div>
     </div>
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.20/dist/sweetalert2.all.min.js"></script>
     <script type="text/javascript" src="../js/codigo1.js"></script>
   </body>
-  
 </html>
