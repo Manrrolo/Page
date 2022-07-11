@@ -1,6 +1,7 @@
+const box = document.getElementById('hidden');
 window.onload = function () {
   $('#onload').fadeOut();
-  $('body').removeClass('hidden');
+  box.removeAttribute('id');
 };
 // Get the canvas node and the drawing context
 const canvas = document.getElementById('canv');
