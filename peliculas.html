@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <!-- ========== Title ========== -->
+    <title>My Netflix</title>
+    <link href="source/img/favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- ========== Favicon Ico ========== -->
+    <!--<link rel="icon" href="fav.ico">-->
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Fonts Icon CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/et-line.css" rel="stylesheet" />
+    <link href="assets/css/ionicons.min.css" rel="stylesheet" />
+    <!-- Carousel CSS -->
+    <link href="assets/css/slick.css" rel="stylesheet" />
+    <!-- Magnific-popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="source/sweetalert2/sweetalert2.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="loader">
+      <div class="loader-outter"></div>
+      <div class="loader-inner"></div>
+    </div>
+
+    <div class="body-container container-fluid">
+      <a class="menu-btn" href="javascript:void(0)">
+        <i class="ion ion-grid"></i>
+      </a>
+      <div class="row justify-content-center">
+        <!--=================== side menu ====================-->
+        <div class="col-lg-2 col-md-3 col-12 menu_block">
+          <!--filter menu -->
+          <div class="side_menu_section">
+            <h4 class="side_title">filter by:</h4>
+            <ul id="filtr-container" class="filter_nav">
+              <li data-filter="*" class="active">
+                <a href="javascript:void(0)">all</a>
+              </li>
+              <li data-filter=".Acción">
+                <a href="javascript:void(0)">Acción</a>
+              </li>
+              <li data-filter=".Aventura">
+                <a href="javascript:void(0)">Aventura</a>
+              </li>
+              <li data-filter=".Fantasia">
+                <a href="javascript:void(0)">Fantasia</a>
+              </li>
+              <li data-filter=".Ciencia_ficción">
+                <a href="javascript:void(0)">Ciencia ficción</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--=================== side menu end====================-->
+
+        <!--=================== content body ====================-->
+        <div class="col-lg-10 col-md-9 col-12 body_block align-content-center">
+          <div class="portfolio">
+            <div class="container-fluid">
+              <!--=================== masaonry portfolio start====================-->
+              <div class="grid img-container justify-content-center no-gutters">
+                <div class="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
+                <div
+                  class="grid-item Acción Aventura Ciencia_ficción col-sm-12 col-md-6 col-lg-3"
+                >
+                  <a
+                    href="source/img/pelicula 2.jpg"
+                    title="Spider-Man: No Way Home - Español Latino"
+                    class="pelicula3"
+                    id="pelicula1"
+                  >
+                    <div class="project_box_one">
+                      <img src="source/img/pelicula 2.jpg" alt="pro1" />
+                      <div class="product_info">
+                        <div class="product_info_text">
+                          <div class="product_info_text_inner">
+                            <i class="ion ion-plus"></i>
+                            <h4>Spider-Man: No Way Home - Español Latino</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="grid-item Acción Aventura Fantasia col-sm-12 col-md-6 col-lg-3"
+                >
+                  <a
+                    href="source/img/pelicula 1.png"
+                    title="Dr. Strange - Sub Español"
+                    class="pelicula1"
+                    id="pelicula1"
+                  >
+                    <div class="project_box_one">
+                      <img src="source/img/pelicula 1.png" alt="pro1" />
+                      <div class="product_info">
+                        <div class="product_info_text">
+                          <div class="product_info_text_inner">
+                            <i class="ion ion-plus"></i>
+                            <h4>
+                              Dr. Strange en el multiverso de la locura - Sub
+                              Español
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div
+                  class="grid-item Acción Aventura Fantasia col-sm-12 col-md-6 col-lg-3"
+                >
+                  <a
+                    href="source/img/pelicula 1.png"
+                    title="Dr. Strange - Español Latino"
+                    class="pelicula2"
+                    id="pelicula1"
+                  >
+                    <div class="project_box_one">
+                      <img src="source/img/pelicula 1.png" alt="pro1" />
+                      <div class="product_info">
+                        <div class="product_info_text">
+                          <div class="product_info_text_inner">
+                            <i class="ion ion-plus"></i>
+                            <h4>
+                              Dr. Strange en el multiverso de la locura -
+                              Español Latino
+                            </h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!--=================== masaonry portfolio end====================-->
+            </div>
+          </div>
+        </div>
+        <!--=================== content body end ====================-->
+      </div>
+    </div>
+
+    <!-- jquery -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="source/sweetalert2/sweetalert2.all.min.js" <!-- bootstrap -->
+      <script src="assets/js/popper.js" >
+    </script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <!--slick carousel -->
+    <script src="assets/js/slick.min.js"></script>
+    <!--Portfolio Filter-->
+    <script src="assets/js/imgloaded.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <!-- Magnific-popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!--Counter-->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- WOW JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Custom js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
