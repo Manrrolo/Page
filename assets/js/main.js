@@ -39,19 +39,19 @@ var toastMixin = Swal.mixin({
 });
 document.querySelector('.pelicula1').addEventListener('click', function () {
   Swal.fire({
-    html: '<iframe width="480" height="320" src="https://www.fembed.com/v/xmmnpyh57p0zm405" frameborder="0" allowfullscreen></iframe>',
+    html: '<iframe width="320" height="320" src="https://www.fembed.com/v/xmmnpyh57p0zm405" frameborder="0" allowfullscreen></iframe>',
     color: '#716add',
   });
 });
 document.querySelector('.pelicula2').addEventListener('click', function () {
   Swal.fire({
-    html: '<iframe width="480" height="320" src="https://www.fembed.com/v/xmmnpyh57p0zm405" frameborder="0" allowfullscreen></iframe>',
+    html: '<iframe width="320" height="320" src="https://www.fembed.com/v/xmmnpyh57p0zm405" frameborder="0" allowfullscreen></iframe>',
     color: '#716add',
   });
 });
 document.querySelector('.pelicula3').addEventListener('click', function () {
   Swal.fire({
-    html: '<iframe width="480" height="320" src="https://www.fembed.com/v/3kklpwcm1xwj0w1g" frameborder="0" allowfullscreen></iframe>',
+    html: '<iframe width="320" height="320" src="https://www.fembed.com/v/3kklpwcm1xwj0w1g" frameborder="0" allowfullscreen></iframe>',
     color: '#716add',
   });
 });
