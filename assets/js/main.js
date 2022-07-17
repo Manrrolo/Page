@@ -55,6 +55,42 @@ document.querySelector('.pelicula3').addEventListener('click', function () {
     color: '#716add',
   });
 });
+document.querySelector('.pelicula4').addEventListener('click', function () {
+  Swal.fire({
+    html: '<iframe width="320" height="320" src="https://www.fembed.com/v/8mmkq7h84xjem0zd" frameborder="0" allowfullscreen></iframe>',
+    color: '#716add',
+  });
+});
+document.querySelector('.pelicula5').addEventListener('click', function () {
+  Swal.fire({
+    html: '<iframe width="320" height="320" src="https://www.fembed.com/v/m773g0a5g-7kmr2n" frameborder="0" allowfullscreen></iframe>',
+    color: '#716add',
+  });
+});
+document.querySelector('.pelicula6').addEventListener('click', function () {
+  Swal.fire({
+    html: '<iframe width="320" height="320" src="https://www.fembed.com/v/g77p58a-5l6qe63w" frameborder="0" allowfullscreen></iframe>',
+    color: '#716add',
+  });
+});
+document.querySelector('.pelicula7').addEventListener('click', function () {
+  Swal.fire({
+    html: '<iframe width="320" height="320" src="https://www.fembed.com/v/8mmkq7h84xje7n2-" frameborder="0" allowfullscreen></iframe>',
+    color: '#716add',
+  });
+});
+document.querySelector('.pelicula8').addEventListener('click', function () {
+  Swal.fire({
+    html: '<iframe width="320" height="320" src="https://www.fembed.com/v/611kz4s02wzgpqwp" frameborder="0" allowfullscreen></iframe>',
+    color: '#716add',
+  });
+});
+document.querySelector('.pelicula9').addEventListener('click', function () {
+  Swal.fire({
+    html: '<iframe width="320" height="320" src="https://www.fembed.com/v/yppe13ie83-46xjz" frameborder="0" allowfullscreen></iframe>',
+    color: '#716add',
+  });
+});
 $(document).ready(function () {
   'use strict';
   /* ==============================================
