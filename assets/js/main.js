@@ -91,6 +91,12 @@ document.querySelector('.pelicula9').addEventListener('click', function () {
     color: '#716add',
   });
 });
+document.querySelector('.pelicula10').addEventListener('click', function () {
+  Swal.fire({
+    html: '<iframe width="320" height="320" src="https://www.fembed.com/v/jzzky6idy4z5je65" frameborder="0" allowfullscreen></iframe>',
+    color: '#716add',
+  });
+});
 $(document).ready(function () {
   'use strict';
   /* ==============================================
