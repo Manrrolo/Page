@@ -1,11 +1,11 @@
 window.onload = function () {
-  $('#onload').fadeOut();
-  $('body').removeClass('hidden');
+  $("#onload").fadeOut();
+  $("body").removeClass("hidden");
 };
 const deg = 6;
-const hr = document.querySelector('#hr');
-const mn = document.querySelector('#mn');
-const sc = document.querySelector('#sc');
+const hr = document.querySelector("#hr");
+const mn = document.querySelector("#mn");
+const sc = document.querySelector("#sc");
 setInterval(() => {
   let day = new Date();
   let hh = day.getHours() * 30;
@@ -16,3 +16,6 @@ setInterval(() => {
   mn.style.transform = `rotateZ(${mm}deg)`;
   sc.style.transform = `rotateZ(${ss}deg)`;
 });
+/**
+ * ! hola ñasmsaksmk
+ */
